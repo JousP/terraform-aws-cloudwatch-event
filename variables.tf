@@ -90,7 +90,7 @@ variable "target_run_command_targets" {
     key    = string
     values = list(string)
   }))
-  default = null
+  default = []
 }
 
 variable "target_ecs_target" {
